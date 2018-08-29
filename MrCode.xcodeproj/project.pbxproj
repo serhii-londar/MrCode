@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B3E000177B2E760B3A5B0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E792D13A526B5E88944E2D /* libPods.a */; };
 		3F0006F21B4D7C6C00503F50 /* NSString+ToNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0006F11B4D7C6C00503F50 /* NSString+ToNSDate.m */; };
 		3F2547441B45A0060012CDD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2547431B45A0060012CDD6 /* main.m */; };
 		3F2547471B45A0060012CDD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2547461B45A0060012CDD6 /* AppDelegate.m */; };
@@ -40,7 +39,6 @@
 		3FBFD28C1B4AD68800BDC00F /* UIImage+MRC_Octicons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFD28B1B4AD68800BDC00F /* UIImage+MRC_Octicons.m */; };
 		3FBFD28F1B4C1C0900BDC00F /* RepositoryDetailTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFD28E1B4C1C0900BDC00F /* RepositoryDetailTableVC.m */; };
 		3FBFD2921B4C1C3500BDC00F /* RepositoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFD2911B4C1C3500BDC00F /* RepositoryHeaderView.m */; };
-		3FCF7CEF1B635337002CE5D5 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF7CEE1B635337002CE5D5 /* KxMenu.m */; };
 		3FCF7CFA1B63865B002CE5D5 /* SearchTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF7CF71B63865B002CE5D5 /* SearchTableVC.m */; };
 		3FCF7D001B63B43B002CE5D5 /* LanguagesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF7CFF1B63B43B002CE5D5 /* LanguagesTableVC.m */; };
 		3FDB8D251B692B38004694B4 /* UsersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB8D241B692B38004694B4 /* UsersTableVC.m */; };
@@ -48,6 +46,9 @@
 		3FDB8D301B726B37004694B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB8D2F1B726B37004694B4 /* WebViewController.m */; };
 		3FFA8CEB1BC4C29B002AD647 /* mobile-github.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEA1BC4C29B002AD647 /* mobile-github.css */; };
 		3FFA8CED1BC4C2E4002AD647 /* mobile-github.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEC1BC4C2E4002AD647 /* mobile-github.js */; };
+		92A18F472004311C00886ECA /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A18F452004311C00886ECA /* KxMenu.m */; };
+		92F9D4472136FF3300B3C157 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F9D4462136FF3300B3C157 /* octicons.ttf */; };
+		E8BE2931EFAFB5D506F7B627 /* Pods_MrCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE2A5DDE6CF3705E3E100A3 /* Pods_MrCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C93A6B4E6E3C7634F7BEC65 /* Pods-MrCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode/Pods-MrCode.release.xcconfig"; sourceTree = "<group>"; };
 		3F0006F01B4D7C6C00503F50 /* NSString+ToNSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ToNSDate.h"; sourceTree = "<group>"; };
 		3F0006F11B4D7C6C00503F50 /* NSString+ToNSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ToNSDate.m"; sourceTree = "<group>"; };
 		3F0F437D1BB46865002B5608 /* RACmetamacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACmetamacros.h; sourceTree = "<group>"; };
@@ -125,8 +127,6 @@
 		3FBFD28E1B4C1C0900BDC00F /* RepositoryDetailTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryDetailTableVC.m; sourceTree = "<group>"; };
 		3FBFD2901B4C1C3500BDC00F /* RepositoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryHeaderView.h; sourceTree = "<group>"; };
 		3FBFD2911B4C1C3500BDC00F /* RepositoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryHeaderView.m; sourceTree = "<group>"; };
-		3FCF7CED1B635337002CE5D5 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
-		3FCF7CEE1B635337002CE5D5 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 		3FCF7CF61B63865B002CE5D5 /* SearchTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableVC.h; sourceTree = "<group>"; };
 		3FCF7CF71B63865B002CE5D5 /* SearchTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableVC.m; sourceTree = "<group>"; };
 		3FCF7CFE1B63B43B002CE5D5 /* LanguagesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguagesTableVC.h; sourceTree = "<group>"; };
@@ -139,9 +139,11 @@
 		3FDB8D2F1B726B37004694B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		3FFA8CEA1BC4C29B002AD647 /* mobile-github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mobile-github.css"; sourceTree = "<group>"; };
 		3FFA8CEC1BC4C2E4002AD647 /* mobile-github.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mobile-github.js"; sourceTree = "<group>"; };
-		AB24770223FEE1F449EAD4FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C003DD33F5E02E04E4EEC24D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E8E792D13A526B5E88944E2D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE2A5DDE6CF3705E3E100A3 /* Pods_MrCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A18F452004311C00886ECA /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		92A18F462004311C00886ECA /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		92F9D4462136FF3300B3C157 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = octicons.ttf; path = Pods/OcticonsIOS/OcticonsIOS/octicons.ttf; sourceTree = SOURCE_ROOT; };
+		FEB83A585C33043A70441B28 /* Pods-MrCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode/Pods-MrCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B3E000177B2E760B3A5B0E /* libPods.a in Frameworks */,
+				E8BE2931EFAFB5D506F7B627 /* Pods_MrCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +171,8 @@
 				3F2547401B45A0060012CDD6 /* MrCode */,
 				3F25475D1B45A0070012CDD6 /* MrCodeTests */,
 				3F25473F1B45A0060012CDD6 /* Products */,
-				CD56E7A853F377ABE5D06B3C /* Pods */,
-				8E4F274592BE737AB4EBFF48 /* Frameworks */,
+				DB0C1DEB92C34743C5DE2CAD /* Pods */,
+				41D0C270F0A11D89AC9D92DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,8 +188,8 @@
 		3F2547401B45A0060012CDD6 /* MrCode */ = {
 			isa = PBXGroup;
 			children = (
+				92A18F432004311C00886ECA /* Vendors */,
 				3F3801601B98097A005DACE5 /* Resources */,
-				3FCF7CEB1B635324002CE5D5 /* Vendors */,
 				3F25476A1B45A1DE0012CDD6 /* GitHubAPIClient */,
 				3F2547811B47F3D40012CDD6 /* Sections */,
 				3FBFD2891B4AD67800BDC00F /* Helpers */,
@@ -317,6 +319,7 @@
 		3F3801601B98097A005DACE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92F9D4452136FF2300B3C157 /* Fonts */,
 				3F6103CB1BA716F600B6A7D0 /* js */,
 				3F3801611B98097A005DACE5 /* css */,
 			);
@@ -368,23 +371,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		3FCF7CEB1B635324002CE5D5 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				3FCF7CEC1B635324002CE5D5 /* KxMenu */,
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
-		3FCF7CEC1B635324002CE5D5 /* KxMenu */ = {
-			isa = PBXGroup;
-			children = (
-				3FCF7CED1B635337002CE5D5 /* KxMenu.h */,
-				3FCF7CEE1B635337002CE5D5 /* KxMenu.m */,
-			);
-			path = KxMenu;
-			sourceTree = "<group>";
-		};
 		3FCF7CF01B63865B002CE5D5 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,19 +395,44 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		8E4F274592BE737AB4EBFF48 /* Frameworks */ = {
+		41D0C270F0A11D89AC9D92DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8E792D13A526B5E88944E2D /* libPods.a */,
+				8EE2A5DDE6CF3705E3E100A3 /* Pods_MrCode.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD56E7A853F377ABE5D06B3C /* Pods */ = {
+		92A18F432004311C00886ECA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				AB24770223FEE1F449EAD4FD /* Pods.debug.xcconfig */,
-				C003DD33F5E02E04E4EEC24D /* Pods.release.xcconfig */,
+				92A18F442004311C00886ECA /* KxMenu */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		92A18F442004311C00886ECA /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				92A18F452004311C00886ECA /* KxMenu.m */,
+				92A18F462004311C00886ECA /* KxMenu.h */,
+			);
+			path = KxMenu;
+			sourceTree = "<group>";
+		};
+		92F9D4452136FF2300B3C157 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92F9D4462136FF3300B3C157 /* octicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB0C1DEB92C34743C5DE2CAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEB83A585C33043A70441B28 /* Pods-MrCode.debug.xcconfig */,
+				0C93A6B4E6E3C7634F7BEC65 /* Pods-MrCode.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -433,11 +444,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2547641B45A0070012CDD6 /* Build configuration list for PBXNativeTarget "MrCode" */;
 			buildPhases = (
-				E9882B0D19852A557F39372B /* Check Pods Manifest.lock */,
+				0EACBA91F10BDD1DDBD3DAC3 /* [CP] Check Pods Manifest.lock */,
 				3F25473A1B45A0060012CDD6 /* Sources */,
 				3F25473B1B45A0060012CDD6 /* Frameworks */,
 				3F25473C1B45A0060012CDD6 /* Resources */,
-				38440463FE5394BF585665C0 /* Copy Pods Resources */,
+				DFDCD6BDF7CF0A14F364E407 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -516,6 +527,7 @@
 				3F6103CD1BA716F600B6A7D0 /* main.js in Resources */,
 				3F3801641B98097A005DACE5 /* github1.css in Resources */,
 				3F2547521B45A0070012CDD6 /* Images.xcassets in Resources */,
+				92F9D4472136FF3300B3C157 /* octicons.ttf in Resources */,
 				3FFA8CEB1BC4C29B002AD647 /* mobile-github.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,34 +542,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38440463FE5394BF585665C0 /* Copy Pods Resources */ = {
+		0EACBA91F10BDD1DDBD3DAC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MrCode-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9882B0D19852A557F39372B /* Check Pods Manifest.lock */ = {
+		DFDCD6BDF7CF0A14F364E407 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MrCode/Pods-MrCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/OcticonsIOS/OcticonsIOS.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKKeyValueStore/YTKKeyValueStore.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPopupView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OcticonsIOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKKeyValueStore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MrCode/Pods-MrCode-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -588,6 +632,7 @@
 				3F25477B1B45A1DE0012CDD6 /* GITUser.m in Sources */,
 				3FA4F2761BB981FB00461E19 /* UIColor+HexRGB.m in Sources */,
 				3FCF7D001B63B43B002CE5D5 /* LanguagesTableVC.m in Sources */,
+				92A18F472004311C00886ECA /* KxMenu.m in Sources */,
 				3F29DF1B1B4D8A6D002257DF /* GITBaseModel.m in Sources */,
 				3F0006F21B4D7C6C00503F50 /* NSString+ToNSDate.m in Sources */,
 				3F8C0FB01B9DDF820004F818 /* RepositoryContentTableViewCell.m in Sources */,
@@ -597,7 +642,6 @@
 				3F38016A1B981264005DACE5 /* MrCodeConst.m in Sources */,
 				3F25477A1B45A1DE0012CDD6 /* GITRepository.m in Sources */,
 				3F2547781B45A1DE0012CDD6 /* GITNotification.m in Sources */,
-				3FCF7CEF1B635337002CE5D5 /* KxMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,7 +776,7 @@
 		};
 		3F2547651B45A0070012CDD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB24770223FEE1F449EAD4FD /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FEB83A585C33043A70441B28 /* Pods-MrCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -748,7 +792,7 @@
 		};
 		3F2547661B45A0070012CDD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C003DD33F5E02E04E4EEC24D /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0C93A6B4E6E3C7634F7BEC65 /* Pods-MrCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
