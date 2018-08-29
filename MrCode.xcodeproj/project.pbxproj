@@ -47,6 +47,7 @@
 		3FFA8CEB1BC4C29B002AD647 /* mobile-github.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEA1BC4C29B002AD647 /* mobile-github.css */; };
 		3FFA8CED1BC4C2E4002AD647 /* mobile-github.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEC1BC4C2E4002AD647 /* mobile-github.js */; };
 		92A18F472004311C00886ECA /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A18F452004311C00886ECA /* KxMenu.m */; };
+		92F9D4472136FF3300B3C157 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F9D4462136FF3300B3C157 /* octicons.ttf */; };
 		E8BE2931EFAFB5D506F7B627 /* Pods_MrCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE2A5DDE6CF3705E3E100A3 /* Pods_MrCode.framework */; };
 /* End PBXBuildFile section */
 
@@ -141,6 +142,7 @@
 		8EE2A5DDE6CF3705E3E100A3 /* Pods_MrCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A18F452004311C00886ECA /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 		92A18F462004311C00886ECA /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		92F9D4462136FF3300B3C157 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = octicons.ttf; path = Pods/OcticonsIOS/OcticonsIOS/octicons.ttf; sourceTree = SOURCE_ROOT; };
 		FEB83A585C33043A70441B28 /* Pods-MrCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MrCode/Pods-MrCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -317,6 +319,7 @@
 		3F3801601B98097A005DACE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92F9D4452136FF2300B3C157 /* Fonts */,
 				3F6103CB1BA716F600B6A7D0 /* js */,
 				3F3801611B98097A005DACE5 /* css */,
 			);
@@ -417,6 +420,14 @@
 			path = KxMenu;
 			sourceTree = "<group>";
 		};
+		92F9D4452136FF2300B3C157 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92F9D4462136FF3300B3C157 /* octicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DB0C1DEB92C34743C5DE2CAD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,7 +449,6 @@
 				3F25473B1B45A0060012CDD6 /* Frameworks */,
 				3F25473C1B45A0060012CDD6 /* Resources */,
 				DFDCD6BDF7CF0A14F364E407 /* [CP] Embed Pods Frameworks */,
-				500279EDA2D51158F6BB2422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -517,6 +527,7 @@
 				3F6103CD1BA716F600B6A7D0 /* main.js in Resources */,
 				3F3801641B98097A005DACE5 /* github1.css in Resources */,
 				3F2547521B45A0070012CDD6 /* Images.xcassets in Resources */,
+				92F9D4472136FF3300B3C157 /* octicons.ttf in Resources */,
 				3FFA8CEB1BC4C29B002AD647 /* mobile-github.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,21 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		500279EDA2D51158F6BB2422 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MrCode/Pods-MrCode-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DFDCD6BDF7CF0A14F364E407 /* [CP] Embed Pods Frameworks */ = {
